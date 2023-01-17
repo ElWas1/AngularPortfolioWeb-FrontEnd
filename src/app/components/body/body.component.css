@@ -3,6 +3,20 @@
 }
 
 .textoBody {
-    padding-left: 10px;
+    padding-left: 30px;
     color: white
+}
+
+.textoTitulo {
+    padding-left: 20px;
+    color: white;
+    
+}
+
+#resaltadoTitulo {
+    background-color: black;
+}
+
+#banner {
+    margin-left: 15px;
 }

@@ -2,7 +2,39 @@
     background-color: black;
 }
 
-#navegacion {
-    text-align: center;
+#logoArgPrg {
+    text-align: left;
+}
+
+.botonesLogin {
+    float: right;
+    margin: 35px 5px;
+}
+
+.boton {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    border: none;
     color: white;
+    padding: 12px 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+}
+
+.boton1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
