@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
+  imagenBanner: string = "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/03/programacion-javascript-2640901.jpg?tf=3840x"
+  imagenBannerAlt: string = "Banner"
+
   constructor() { }
 
   ngOnInit(): void {
