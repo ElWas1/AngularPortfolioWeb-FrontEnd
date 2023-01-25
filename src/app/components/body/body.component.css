@@ -3,21 +3,32 @@
 }
 
 .textoBody {
-    padding-left: 30px;
+    padding-left: 60px;
     color: white
 }
 
 .textoTitulo {
     padding-left: 20px;
     color: white;
-    
+
 }
 
 #resaltadoTitulo {
     background-color: black;
 }
 
-#banner {
-    padding-left: 1.4%;
+#imgBanner {
     border-radius: 3%;
+}
+
+.banner {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.pfpPortfolio {
+    border-radius: 50%;
+    bottom: -80px;
+    left: 30px;
 }
