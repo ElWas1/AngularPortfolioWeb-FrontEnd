@@ -11,6 +11,9 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { HardAndSoftSkillsComponent } from './components/hard-and-soft-skills/hard-and-soft-skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { LoginComponent } from './components/login/login.component';
+import { SectionItemComponent } from './components/section-item/section-item.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { withLatestFrom } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,27 @@ import { LoginComponent } from './components/login/login.component';
     EducacionComponent,
     HardAndSoftSkillsComponent,
     ProyectosComponent,
-    LoginComponent
+    LoginComponent,
+    SectionItemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+      maxPercent: 1000,
+      showSubtitle: true,
+      showImage: true,
+      imageHeight: 90,
+      imageWidth: 90,
+      backgroundOpacity: 0,
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]

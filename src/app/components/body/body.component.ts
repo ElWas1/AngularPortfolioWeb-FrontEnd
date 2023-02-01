@@ -13,6 +13,10 @@ export class BodyComponent implements OnInit {
   pfpPortfolio: string = "https://github.com/ElWas1/AngularPortfolioWeb-FrontEnd/blob/main/src/assets/PFP_WebPortfolio.png?raw=true"
   pfpPortfolioAlt: string = "Foto de perfil"
 
+  nombreProgramador: string = ""
+  titulo: string = ""
+  localidad: string = ""
+
   constructor() { }
 
   ngOnInit(): void {

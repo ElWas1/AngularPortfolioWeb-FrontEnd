@@ -1,0 +1,16 @@
+* {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.texto {
+    color: white;
+}
+
+#image-back {
+    background-color: #6e79aa;
+}
+
+#circulos-progreso {
+    text-align: center;
+}

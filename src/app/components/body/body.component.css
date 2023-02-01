@@ -10,7 +10,6 @@
 .textoTitulo {
     padding-left: 20px;
     color: white;
-
 }
 
 #resaltadoTitulo {
@@ -23,12 +22,12 @@
 
 .banner {
     position: relative;
-    margin-left: 3%;
+    margin: 10%;
     margin-top: 1%;
 }
 
 .pfpPortfolio {
     border-radius: 50%;
-    bottom: -80px;
+    bottom: -6%;
     left: 30px;
 }

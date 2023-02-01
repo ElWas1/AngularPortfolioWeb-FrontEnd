@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SectionItemComponent } from '../section-item/section-item.component';
 
 @Component({
   selector: 'app-educacion',
@@ -11,5 +12,7 @@ export class EducacionComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  addSectionItem: SectionItemComponent = new SectionItemComponent;
 
 }

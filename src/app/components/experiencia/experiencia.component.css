@@ -1,0 +1,12 @@
+* {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#texto-titulo {
+    color: white;
+}
+
+#texto-descripcion {
+    color: grey;
+}

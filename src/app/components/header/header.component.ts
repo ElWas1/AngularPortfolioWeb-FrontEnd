@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
   logoInstagramAlt: string = "Instagram"
   hrefInstagram: string = "https://www.instagram.com/tino_contii/"
 
-  registroBoton: string = "Registrarse"
   loginBoton: string = "Login"
   inicioBoton: string = "Inicio"
 

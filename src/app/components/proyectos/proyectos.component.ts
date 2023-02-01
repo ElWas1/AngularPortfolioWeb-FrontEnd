@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SectionItemComponent } from '../section-item/section-item.component';
 
 @Component({
   selector: 'app-proyectos',
